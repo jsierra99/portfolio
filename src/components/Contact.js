@@ -102,6 +102,15 @@ const Container = styled.div`
         margin: 0 auto;
         text-align: center;
     }
+
+    
+    @media only screen and (max-width: 675px)
+    {
+        h1
+        {
+            font-size: 2rem;
+        }
+    }
 `;
 
 const formVariants = 

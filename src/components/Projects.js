@@ -22,11 +22,11 @@ const Container = styled.div`
 
 const GridProjects = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 `;
 
-const ProjectsContent = styled.div`
+const ProjectsContent = styled.div` 
     h3
     {
         text-align: center;
@@ -70,7 +70,7 @@ const ProjectsContent = styled.div`
 
 const ProjectsImage = styled(motion.img)`
     width: 100%;
-    height: 500px;
+    height: 400px;
     cursor: pointer;
     border-radius: 10px;
 `;
