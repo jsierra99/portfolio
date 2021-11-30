@@ -85,7 +85,7 @@ const Projects = ({ slides }) =>
                     {slides.map((a, b) =>
                         <ProjectsContent key={b}>
                             <h3>{a.title}</h3>
-                            <a  href={a.url}>
+                            <a  href={a.url} target="_blank">
                                 <ProjectsImage whileHover={{scale: 0.9}} transition={{duration:1}} src={a.image} alt={a.alt} />
                             </a> 
                             <a href={a.gitHub}><motion.button whileHover={{scale: 0.9}} className="btn">github</motion.button></a>

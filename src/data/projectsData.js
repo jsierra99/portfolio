@@ -10,6 +10,9 @@ import ImageNine from "../img/projects_9.PNG";
 import ImageTen from "../img/projects_10.PNG";
 import ImageEleven from "../img/projects_11.PNG";
 import ImageTwelve from "../img/projects_12.PNG";
+import ImageThirteen from "../img/projects_13.jpg";
+import ImageFourteen from "../img/projects_14.jpg";
+import ImageFifteen from "../img/projects_15.jpg";
 
 export const projectsData = 
 [
@@ -108,5 +111,29 @@ export const projectsData =
         alt: "site",
         url: "https://elastic-haibt-e5fd77.netlify.app/",
         gitHub: "https://github.com/jsierra99/flashcard_quiz"
+    },
+    {
+        title: "Amazon clone using React with firebase",
+        label: "View Site",
+        image: ImageThirteen,
+        alt: "site",
+        url: "https://challenge-31b13.web.app",
+        gitHub: "https://github.com/jsierra99/amazon-clone"
+    },
+    {
+        title: "LinkedIn clone using React with firebase",
+        label: "View Site",
+        image: ImageFourteen,
+        alt: "site",
+        url: "https://linkedin-clone-2d2a4.web.app/home",
+        gitHub: "https://github.com/jsierra99/linkedin-clone"
+    },
+    {
+        title: "Hulu clone using Next.js with tailwind css",
+        label: "View Site",
+        image: ImageFifteen,
+        alt: "site",
+        url: "https://hulu-seven-brown.vercel.app/",
+        gitHub: "https://github.com/jsierra99/hulu-clone"
     }
 ];
