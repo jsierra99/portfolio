@@ -13,6 +13,7 @@ import ImageTwelve from "../img/projects_12.PNG";
 import ImageThirteen from "../img/projects_13.jpg";
 import ImageFourteen from "../img/projects_14.jpg";
 import ImageFifteen from "../img/projects_15.jpg";
+import ImageSixteen from "../img/projects_16.jpg";
 
 export const projectsData = 
 [
@@ -135,5 +136,13 @@ export const projectsData =
         alt: "site",
         url: "https://hulu-seven-brown.vercel.app/",
         gitHub: "https://github.com/jsierra99/hulu-clone"
+    },
+    {
+        title: "Reddit clone using typescrict with tailwind css",
+        label: "View Site",
+        image: ImageSixteen,
+        alt: "site",
+        url: "https://reddit-clone-orpin.vercel.app/",
+        gitHub: "https://github.com/jsierra99/reddit-clone"
     }
 ];
